@@ -6,6 +6,10 @@ public class Employee {
     double hoursWorked;
     double payRate;
 
-    
+
+    public Employee(){
+
+    }
+
 
 }
