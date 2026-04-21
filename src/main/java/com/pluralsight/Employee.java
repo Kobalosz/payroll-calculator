@@ -14,5 +14,15 @@ public class Employee {
         this.payRate = payRate;
     }
 
+    public int getEmployeeId(){
+        return employeeId;
+    }
+
+    public double getGrossPay(){
+        return payRate * hoursWorked;
+    }
+
+
+
 
 }
